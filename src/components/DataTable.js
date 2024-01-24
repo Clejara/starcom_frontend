@@ -10,7 +10,7 @@ const DataTable = () => {
                     <TableHead>
                         <TableRow>
                             {Array.from(Array(13).keys()).map((column) => (
-                                <TableCell key={column}>Column {column + 1}</TableCell>
+                                <TableCell key={column}>Columnas {column + 1}</TableCell>
                             ))}
                         </TableRow>
                     </TableHead>
@@ -18,7 +18,7 @@ const DataTable = () => {
                         {Array.from(Array(10).keys()).map((row) => (
                             <TableRow key={row}>
                                 {Array.from(Array(13).keys()).map((column) => (
-                                    <TableCell key={column}>Row {row + 1}, Column {column + 1}</TableCell>
+                                    <TableCell key={column}>Row {row + 1}, Columnas {column + 1}</TableCell>
                                 ))}
                             </TableRow>
                         ))}
